@@ -1,0 +1,90 @@
+@import "../../styles/vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 20px;
+  background-color: #19376d;
+  border-radius: 10px;
+}
+
+.backLink {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto 30px auto;
+  border-radius: 10px;
+}
+
+.content {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.content h3 {
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.links {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 100px;
+  background: var(--color-primary);
+  padding: 10px 30px;
+  transition: background-color 0.3s ease;
+}
+
+.link:hover {
+    background: #0e2a57;
+}
+
+.navigation {
+    display: flex;
+    margin-top: 30px;
+}
+
+.navLink {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+}
