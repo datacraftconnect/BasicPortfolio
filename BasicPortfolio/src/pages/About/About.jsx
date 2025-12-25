@@ -132,7 +132,7 @@ const About = () => {
             </div>
             <div className={styles.statsContainer}>
               <img
-                src="https://github-readme-stats.vercel.app/api/top-langs/?username=datacraftconnect&layout=compact&theme=dark"
+                src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=datacraftconnect&layout=compact&theme=dark"
                 alt="Top Languages"
                 className={styles.githubStat}
               />
